@@ -798,21 +798,10 @@ footer {
     width: 80%;
 }
 
-.construction-main {
-    min-height: calc(100vh - 140px); /* accounts for header + footer */
+.error-main {
+    height: 85vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.construction-image {
-    width: 400px;
-    max-width: 90%;
-}
-
-.construction-footer {
-    text-align: center;
-    padding: 20px 0;
-    font-size: 14px;
-    opacity: 0.6;
+    align-items: center;
+    flex-direction: column;
 }
